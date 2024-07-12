@@ -165,6 +165,14 @@ section {
     max-width: 58%;
 }
 
+.service-text-1 {
+    font-family: poppins;
+    margin-top: 60px;
+    font-size: 17px;
+    font-weight: 500;
+    padding-left: 34px;
+}
+
 .card {
     position: relative;
     width: 370px;
