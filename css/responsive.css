@@ -1,0 +1,138 @@
+/* Base Styles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.section {
+    padding: 50px 15px;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 1200px) {
+    #header {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .description {
+        text-align: center;
+        margin: 0;
+    }
+
+    .header_img {
+        width: 100%;
+        text-align: center;
+    }
+
+    .header_img img {
+        max-width: 80%;
+        height: auto;
+    }
+
+    .service {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .service-text {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .card {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 992px) {
+    #contactFormContainer {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .owl-carousel .item {
+        margin: 5px;
+    }
+
+    .features {
+        flex: 0 0 48%;
+        max-width: 48%;
+        margin-bottom: 20px;
+    }
+
+    .growth-card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .red-headers {
+        font-size: 20px;
+    }
+
+    .black-headers {
+        font-size: 30px;
+    }
+
+    .contactus {
+        width: 100%;
+    }
+
+    #contactFormContainer {
+        width: 90%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .our-project-img {
+        height: auto;
+    }
+
+    .col-4,
+    .col-8 {
+        width: 100%;
+    }
+
+    .feedbacks h3 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 576px) {
+    .digital {
+        font-size: 30px;
+    }
+
+    .header_img img {
+        max-width: 90%;
+    }
+
+    .contactus {
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .service,
+    .service-text {
+        flex: 1 0 100%;
+        max-width: 100%;
+        margin: 10px 0;
+    }
+
+    .growth-card {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .owl-dot {
+        width: 10px;
+        height: 10px;
+    }
+}
